@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 const MongoClient = require('mongodb').MongoClient
-const client = new MongoClient("mongodb+srv://test:test@cluster0-bagwy.gcp.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
+const client = new MongoClient("mongodb+srv://test:test@cluster0-dbhou.gcp.mongodb.net/test?retryWrites=true&w=majority", { useNewUrlParser: true });
 app.use(bodyParser.urlencoded({ extended: true }))
 app.set('view engine', 'ejs')
 
